@@ -12,5 +12,5 @@ app.config(['$routeProvider', function($routeProvider) {
       templateUrl: 'views/display.html',
       controller: 'dispCont'
     })
-    .otherwise({redirectTo: '/'});
+    .otherwise({redirectTo: '/form'});
 }]);
